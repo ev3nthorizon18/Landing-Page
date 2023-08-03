@@ -35,8 +35,10 @@ a {
     color: #f9faf8;
     border-radius: 5px;
     display: flex;
-   
+    justify-content: center;
+    text-align: center;
     padding: 5px 15px;
+    font-size: 18px;
 }
 .block1{
     background-color: #1f2937;
@@ -44,7 +46,7 @@ a {
     color: #f9faf8;
     justify-content:space-between;
     align-items: center;
-    flex: 1; 
+    flex: 1 1 auto; 
     padding: 20px 200px;
    
 }
@@ -62,20 +64,31 @@ a {
 
 .block2 {
     display: flex;
+    justify-content: space-between;
+
 }
 
 .block3 {
-    display:
+    display:flex;
+    flex-direction: column;
 }
 
 .supplies {
-    width: 500px;
+    width: 650px;
     height: auto;
     padding: 60px;
+    flex: 0 1 650; 
 
-   
 }
 
-.block1-1 {
-    width: 400px;
+.text1 {
+    width: 600px;
+    font-size: 18px;
+    color: #e5e7eb;
+    
+    flex: 1 1 auto;
+     
+}
+.pic {
+    
 }
