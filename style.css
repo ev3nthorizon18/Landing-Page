@@ -55,23 +55,7 @@ a {
     font-weight:bolder;
 
 }
-.title2{
-    color: #1f2937;
-    font-weight: bolder;
-    font-size: 36px;
-    text-align: center;
-    padding-top: 30px;
-}
 
-.block2 {
-    display: flex;
-    justify-content: space-between;
-    flex: 1;
-    margin: 0px 200px;
-    gap: 20px;
-    padding-bottom: 100px; 
-
-}
 .supplies {
     width: auto;
     height: auto;
@@ -87,6 +71,24 @@ a {
     flex: 1 1 auto;
 }
 
+.title2{
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.block2 {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin-right:250px;
+    margin-left: 200px;
+    gap: 20px;
+    padding-bottom: 100px; 
+}
+
 .pic {
     border-style:ridge; 
     width: 300px;
@@ -94,8 +96,6 @@ a {
     border-radius: 10px; 
     border-color: #3882f6;
     margin-top: 40px;
-  
-    
 }
 
 .text2-1 {
@@ -144,7 +144,7 @@ a {
     font-size: 36px;
     font-style: italic;
     color: hsl(197, 18%, 32%);
-    width: 1200px;
+    width: 1475px;
     padding-top: 100px;
     font-weight: lighter;
 }
@@ -154,7 +154,7 @@ a {
     font-weight: bold;
     padding-bottom: 100px;
     padding-top: 32px;
-    padding-left: 900px;
+    padding-left: 1150px;
     flex: 1;
    }
 
@@ -163,7 +163,7 @@ a {
     background-color: #3882f6;
     justify-content: space-between;
     
-    margin: 75px 250px; 
+    margin: 75px 200px; 
     border-radius: 5px;
     padding: 40px;
     flex: 1; 
