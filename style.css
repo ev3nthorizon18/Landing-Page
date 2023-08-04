@@ -69,11 +69,9 @@ a {
     flex: 1;
     margin: 0px 200px;
     gap: 20px;
-    
+    padding-bottom: 100px; 
 
 }
-
-
 .supplies {
     width: auto;
     height: auto;
@@ -139,18 +137,64 @@ a {
     flex-direction: column;
     background-color: #e5e7eb ;
     align-items: center;
+      
 }
 
 .text3 {
     font-size: 36px;
     font-style: italic;
-    color: #1f2937;
-    width: 1000px;
+    color: hsl(197, 18%, 32%);
+    width: 1200px;
     padding-top: 100px;
+    font-weight: lighter;
 }
 
 .signature3 {
     font-size: 24px;
     font-weight: bold;
-    text-align: right;
+    padding-bottom: 100px;
+    padding-top: 32px;
+    padding-left: 900px;
+    flex: 1;
+   }
+
+.block4 {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    
+    margin: 75px 250px; 
+    border-radius: 5px;
+    padding: 40px;
+    flex: 1; 
+   }
+
+.title4 {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text4 {
+    color: hsl(0, 0%, 90%);
+    font-size: 16px;
+    flex: 1;
+}
+
+.button2 {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    border-color: white;
+    padding: 0px 50px;
+    max-width: 200px;
+    flex: 1;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
 }
